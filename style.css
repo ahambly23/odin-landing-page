@@ -15,6 +15,11 @@ ul {
     list-style-type: none;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .logo {
     width: 80px;
     height: 80px;
@@ -23,7 +28,7 @@ ul {
 
 .header-list {
     display: flex;
-    gap: 12px;
+    gap: 50px;
     align-items: center;
 }
 
@@ -47,6 +52,8 @@ ul {
 .hero-image {
     width: 400px;
     height: auto;
+    border: 4px #E0610E solid; 
+    border-radius: 4px;
 }
 
 .subtext {
@@ -68,6 +75,7 @@ h2 {
     flex-basis: 100%;
     padding-bottom: 48px;
     padding-top: 48px;
+    font-size: 32px;
 }
 
 .center-images {
@@ -87,6 +95,10 @@ h2 {
     padding: 8px;
 }
 
+.caption {
+    margin-top: 10px;
+}
+
 /* Section 3 */
 
 .quote-container {
@@ -101,7 +113,7 @@ h2 {
 }
 
 .quote {
-    max-width: 400px;
+    max-width: 600px;
     font-size: 32px;
     font-style: italic;
 }
@@ -109,16 +121,40 @@ h2 {
 .author {
     max-width: 400px;
     color: #47C7FC;
+    margin-left: 300px;
 }
 
 
 /* Section 4 */
 
 .action-container {
-    background-color: #47C7FC;
+    color: #47C7FC;
+    border-top: 5px solid #E0610E;
+    border-bottom: 5px solid #E0610E;
+    background-color: black;
     height: 400px;
 }
 
+.action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    border: 5px solid #E0610E;
+    margin: 150px 400px;
+    border-radius: 20px;
+}
+
+.call-heading {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.call-content {
+    opacity: 75%;
+    width: 250px;
+}
 
 /* Footer */
 
@@ -128,16 +164,21 @@ footer {
     align-items: center;
     margin-top: auto;
     background-color: black;
-    color: #E0610E;
     height: 50px;
+    color: #47C7FC;
+}
+
+span {
+    color: #E0610E;
 }
 
 /* All */
 
-button {
+button {  
+    border: 1px #E0610E solid;
     border-radius: 5px;
-    background-color: #E0610E;
-    color: black;
+    background-color: black;
+    color: #E0610E;
     padding: 8px;
     margin-left: 8px;
 }
